@@ -1,0 +1,63 @@
+# Sistema Digital de Ventas
+
+## 1. Descripción del sistema
+
+El Sistema Digital de Ventas es un proyecto de software diseñado para facilitar la gestión de productos, inventario, clientes y ventas de un negocio. Busca organizar las operaciones comerciales, reducir errores de registro y facilitar las consultas de información.
+
+## 2. Objetivo
+
+Organizar las operaciones básicas de venta mediante una solución digital que facilite el control de productos, el inventario y las transacciones comerciales.
+
+## 3. Problema que resuelve
+
+El registro manual de productos, existencias y ventas puede ocasionar errores, pérdida de información y dificultades para consultar los datos. El sistema propone centralizar y organizar estos procesos.
+
+## 4. Funcionalidades principales
+
+- Registro y consulta de productos.
+- Control de inventario.
+- Gestión de clientes.
+- Registro de ventas.
+- Consulta de información comercial.
+- Generación de reportes básicos.
+
+## 5. Arquitectura seleccionada
+
+Se propone una arquitectura por capas, separando la presentación, la lógica de negocio y el acceso a los datos. Esta organización facilita el mantenimiento y permite ampliar el sistema en el futuro.
+
+## 6. Organización frontend y backend
+
+### Frontend
+
+El frontend será la parte visual con la que interactúa el usuario. Permitirá consultar productos, revisar el inventario, registrar clientes y mostrar formularios para las operaciones de venta.
+
+### Backend
+
+El backend procesará las solicitudes del usuario, validará los datos, aplicará las reglas del negocio, gestionará las ventas y se comunicará con la base de datos.
+
+### Comunicación entre frontend y backend
+
+El frontend enviará solicitudes al backend cuando el usuario realice una operación. El backend procesará la solicitud, consultará o actualizará los datos necesarios y devolverá una respuesta para que el frontend muestre el resultado.
+
+## 7. Herramientas utilizadas
+
+- GitHub para gestionar el repositorio y registrar los cambios.
+- GitHub Projects para organizar y supervisar las tareas.
+- GitHub Issues para registrar incidencias y actividades pendientes.
+- Visual Paradigm Online para elaborar diagramas UML y representar la arquitectura.
+
+## 8. Estado actual del proyecto
+
+El proyecto cuenta con planificación de tareas en GitHub Projects, seguimiento de incidencias mediante GitHub Issues y trabajo de modelado en Visual Paradigm Online. Esta entrega se centra en la documentación y organización técnica inicial. Las funcionalidades descritas representan el alcance previsto y no implican que todas estén implementadas o probadas.
+
+## 9. Próximos pasos
+
+- Organizar las evidencias técnicas del proyecto.
+- Revisar las incidencias y tareas pendientes.
+- Validar la arquitectura propuesta.
+- Implementar las funcionalidades principales.
+- Realizar pruebas y documentar los resultados.
+
+## 10. Control de versiones
+
+Los cambios en los archivos del proyecto se registrarán mediante commits en GitHub. Cada commit tendrá un mensaje descriptivo que permitirá identificar las modificaciones realizadas y consultar el historial de versiones.
